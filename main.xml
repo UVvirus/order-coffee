@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+	xmlns:android="http://schemas.android.com/apk/res/android"
+	android:layout_width="match_parent"
+	android:layout_height="match_parent"
+	android:orientation="vertical"
+	android:gravity="center"
+	android:paddingBottom="16dp"
+	android:paddingLeft="16dp"
+	android:paddingRight="16dp"
+	android:paddingTop="16dp">
+
+	<TextView
+		android:layout_height="wrap_content"
+		android:textAppearance="?android:attr/textAppearanceMedium"
+		android:layout_width="wrap_content"
+		android:text="quantity"
+		android:layout_marginBottom="16dp"/>
+
+	<Button
+		android:layout_height="48dp"
+		android:layout_width="48dp"
+		android:text="+"
+		android:onClick="plus"/>
+
+	<TextView
+		android:layout_height="wrap_content"
+		android:textAppearance="?android:attr/textAppearanceMedium"
+		android:layout_width="wrap_content"
+		android:layout_marginBottom="16dp"
+		android:text="0"
+		android:id="@+id/textView1"/>
+
+	<Button
+		android:layout_height="48dp"
+		android:layout_width="48dp"
+		android:text="-"
+		android:onClick="minus"/>
+<TextView
+	android:layout_height="wrap_content"
+		android:layout_width="wrap_content"
+		android:text="price"
+		android:layout_marginBottom="16dp"
+		android:id="@+id/test"/>
+
+	<TextView
+		android:layout_height="wrap_content"
+		android:layout_width="wrap_content"
+		android:layout_marginBottom="16dp"
+		android:textAppearance="?android:attr/textAppearanceMedium"
+		android:text="0"
+		android:id="@+id/displayprice"/>
+
+	<Button
+		android:layout_height="wrap_content"
+		android:layout_width="wrap_content"
+		android:text="order"
+		android:id="@+id/button1"
+		android:onClick="submitOrder"/>
+
+</LinearLayout>
+
